@@ -1,8 +1,7 @@
 .main-article {
   grid-area: art;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  width: 55vw;
+  justify-self: center;
 }
 
 .main-article-img {
@@ -10,13 +9,13 @@
   height: auto;
 }
 
-.text-container {
-  width: 55vw;
-  margin: 20px 0;
+.main-article-text {
+  margin: 40px 0;
   line-height: 35px;
 }
 
 .continue-reading-btn {
+  outline: none;
   background-color: white;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;

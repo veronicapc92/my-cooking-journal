@@ -4,7 +4,7 @@ footer {
   grid-area: ft;
   border-top: 2px solid mistyrose;
   background-color: mistyrose;
-  clip-path: polygon(0 8vw, 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 6vw, 100% 0, 100% 100%, 0 100%);
 }
 
 .contact-option {

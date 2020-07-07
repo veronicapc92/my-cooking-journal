@@ -4,6 +4,7 @@
 @import "./index/featured-recipes.css";
 @import "./index/main-article.css";
 @import "./index/latest-recipes.css";
+@import "./blogpost/blogpost-page-container.css";
 
 body {
   margin: 0;
