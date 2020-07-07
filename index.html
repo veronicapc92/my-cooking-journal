@@ -5,77 +5,109 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Cooking Journal</title>
     <link
-      href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap"
-      rel="stylesheet"
-    />
-    <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <h1>My Cooking Journal</h1>
-      <nav>
-        <ul class="navbar-list">
-          <li>Home</li>
-          <li>Recipes</li>
-          <li>About</li>
-          <li>Subscribe</li>
-        </ul>
-        <ul class="navbar-list contact">
-          <li><img src="pictures/instagram.png" /></li>
-          <li><img src="pictures/facebook.png" /></li>
-          <li><img src="pictures/youtube.png" /></li>
-        </ul>
-      </nav>
-    </header>
-    <section>
-      <div class="image-1">
-        <img src="pictures/salad.png" alt="Sumer salad" />
-      </div>
-      <div class="image-2">
-        <img
-          src="pictures/pancakes.png"
-          alt="Pancakes with salted caramel sauce"
-        />
-      </div>
-      <div class="image-3">
-        <img src="pictures/pasta.png" alt="Tagliatelle al pesto" />
-      </div>
-      <div class="image-4">
-        <img src="pictures/cupcakes.png" alt="Rainbow cupcakes" />
-      </div>
-    </section>
-    <aside>
-      <div class="latest-recipes-container">
-        <h2>Latest Recipes</h2>
-        <ul class="latest-recipes-list">
-          <li>Pad Thai</li>
-          <li>Mexican Corn Salad</li>
-          <li>Chocolate Chip Cookies</li>
-          <li>Vegetable Lasagna</li>
-          <li>Black Forest Cake</li>
-          <li>Spanish Omelette</li>
-        </ul>
-      </div>
-    </aside>
-    <article>
-      <h2>Mediterranean Salad</h2>
-      <div class="text-container">
-        <p>
-          Summer is here! And to cope with the heat, today I'm bringing you a
-          perfectly balanced Mediterranean salad recipe. You can serve it as a
-          side dish or make a meal out of it, this salad is healthy, refreshing
-          and delicious! And it will only take you 15 min to prepare it...
-          <button>Continue reading</button>
-        </p>
-      </div>
-      <div>
-        <img src="pictures/mediterranean-salad.png" alt="Mediterranean Salad" />
-      </div>
-    </article>
-    <footer>Footer</footer>
+    <div class="homepage-container">
+      <header>
+        <h1>My Cooking Journal</h1>
+        <nav>
+          <ul class="navbar-menu">
+            <li class="menu-option">Home</li>
+            <li class="menu-option">Recipes</li>
+            <li class="menu-option">About</li>
+            <li class="menu-option">Subscribe</li>
+          </ul>
+          <ul class="navbar-menu secondary-menu">
+            <li class="secondary-menu-option">
+              <img class="secondary-menu-icon" src="pictures/instagram.png" />
+            </li>
+            <li class="secondary-menu-option">
+              <img class="secondary-menu-icon" src="pictures/facebook.png" />
+            </li>
+            <li class="secondary-menu-option">
+              <img class="secondary-menu-icon" src="pictures/youtube.png" />
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <section class="featured-recipes">
+        <div class="featured-recipe">
+          <img
+            src="pictures/salad.png"
+            alt="Sumer salad"
+            class="featured-recipe-img"
+          />
+        </div>
+        <div class="featured-recipe">
+          <img
+            src="pictures/pancakes.png"
+            alt="Pancakes with salted caramel sauce"
+            class="featured-recipe-img"
+          />
+        </div>
+        <div class="featured-recipe">
+          <img
+            src="pictures/pasta.png"
+            alt="Tagliatelle al pesto"
+            class="featured-recipe-img"
+          />
+        </div>
+        <div class="featured-recipe">
+          <img
+            src="pictures/cupcakes.png"
+            alt="Rainbow cupcakes"
+            class="featured-recipe-img"
+          />
+        </div>
+      </section>
+      <aside>
+        <div class="latest-recipes-container">
+          <h2>Latest Recipes</h2>
+          <ul class="latest-recipes-list">
+            <li>Pad Thai</li>
+            <li>Mexican Corn Salad</li>
+            <li>Chocolate Chip Cookies</li>
+            <li>Vegetable Lasagna</li>
+            <li>Black Forest Cake</li>
+            <li>Spanish Omelette</li>
+          </ul>
+        </div>
+      </aside>
+      <article class="main-article">
+        <h2>Mediterranean Salad</h2>
+        <div class="text-container">
+          <p>
+            Summer is here! And to cope with the heat, today I'm bringing you a
+            perfectly balanced Mediterranean salad recipe. You can serve it as a
+            side dish or make a meal out of it, this salad is healthy,
+            refreshing and delicious! And it will only take you 15 min to
+            prepare it...
+            <a href="blogpost.html"
+              ><button class="continue-reading-btn">Continue reading</button></a
+            >
+          </p>
+        </div>
+        <div>
+          <img
+            src="pictures/mediterranean-salad.png"
+            alt="Mediterranean Salad"
+            class="main-article-img"
+          />
+        </div>
+      </article>
+      <footer>
+        <div class="contact-options-container">
+          <ul class="contact-options-list">
+            <li><img class="contact-option" src="pictures/instagram.png" /></li>
+            <li><img class="contact-option" src="pictures/facebook.png" /></li>
+            <li><img class="contact-option" src="pictures/youtube.png" /></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>

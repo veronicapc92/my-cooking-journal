@@ -1,0 +1,22 @@
+.homepage-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, auto);
+  grid-template-areas:
+    "hd hd hd hd"
+    "sec sec sec sec"
+    "art art art sd"
+    "ft ft ft ft";
+}
+
+@media (max-width: 1430px) {
+  .homepage-container {
+    grid-template-rows: repeat(5, auto);
+    grid-template-areas:
+      "hd hd hd hd"
+      "sec sec sec sec"
+      "art art art art"
+      "sd sd sd sd"
+      "ft ft ft ft";
+  }
+}

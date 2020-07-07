@@ -1,0 +1,36 @@
+aside {
+  margin-top: 70px;
+  grid-area: sd;
+  display: flex;
+  justify-content: center;
+}
+
+.latest-recipes-container {
+  width: 90%;
+  background-color: mistyrose;
+  height: 320px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.latest-recipes-list {
+  margin-left: 60px;
+  line-height: 30px;
+  margin-top: 20px;
+}
+
+@media (max-width: 850px) {
+  aside {
+    margin: 50px 0;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 1430px) {
+  .latest-recipes-container {
+    width: 500%;
+    max-width: 500px;
+    min-width: 300px;
+  }
+}
