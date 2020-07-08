@@ -19,6 +19,13 @@ footer {
   justify-content: center;
 }
 
+.footer-text {
+  margin: auto;
+  text-align: center;
+  font-size: 13px;
+  color: brown;
+}
+
 @media (max-width: 850px) {
   footer {
     margin-top: 40px;
