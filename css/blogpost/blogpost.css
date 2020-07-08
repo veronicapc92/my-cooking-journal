@@ -1,0 +1,77 @@
+.blogpost-heading {
+  margin-top: 60px;
+}
+
+.blogpost {
+  justify-self: center;
+  grid-area: bp;
+  width: 55vw;
+}
+
+.blogpost-img {
+  width: 55vw;
+  height: auto;
+  margin-bottom: 40px;
+}
+
+.blogpost-text {
+  margin: 40px 0;
+  line-height: 35px;
+}
+
+blockquote {
+  width: 40vw;
+  height: auto;
+  background: rgba(255, 228, 225, 0.3);
+  border-left: 10px solid brown;
+  margin: 60px 0 0 0;
+  padding: 0.5em 10px;
+  line-height: 40px;
+}
+blockquote:before {
+  color: brown;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+blockquote p {
+  display: inline;
+}
+
+.ingredients {
+  list-style: outside;
+  line-height: 40px;
+  margin-left: 30px;
+}
+
+.how-to {
+  line-height: 30px;
+}
+
+.blogpost-subheading {
+  margin-top: 30px;
+  font-size: 17px;
+  font-weight: normal;
+}
+
+.back {
+  display: block;
+  margin: 50px auto 0 auto;
+}
+
+@media (max-width: 1270px) {
+  .blogpost {
+    width: 80vw;
+  }
+
+  blockquote {
+    width: 70vw;
+  }
+
+  .blogpost-img {
+    width: 80vw;
+  }
+}

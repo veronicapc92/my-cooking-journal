@@ -1,0 +1,16 @@
+.btn {
+  outline: none;
+  background-color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  border: 2px solid mistyrose;
+  border-radius: 10px;
+  padding: 8px;
+  cursor: pointer;
+  transition: background-color 300ms ease;
+  color: brown;
+}
+
+.btn:hover {
+  background-color: mistyrose;
+}

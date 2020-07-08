@@ -8,6 +8,10 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -49,8 +53,10 @@
           <strong>healthy, refreshing and delicious!</strong> And it will only
           take you <u>15 min</u> to prepare it.
         </p>
-        <img class="blogpost-image" src="pictures/mediterranean-salad.png" />
-        <h3><u>Ingredients</u> <em>(2 people)</em>:</h3>
+        <img class="blogpost-img" src="pictures/mediterranean-salad.png" />
+        <h3 class="blogpost-subheading">
+          <u>Ingredients</u> <em>(2 people)</em>:
+        </h3>
         <ul class="ingredients">
           <em>
             <li>250g tomatoes</li>
@@ -63,7 +69,7 @@
             <li>A pinch of salt</li>
           </em>
         </ul>
-        <h3><u>How to:</u></h3>
+        <h3 class="blogpost-subheading"><u>How to:</u></h3>
         <ol class="how-to">
           <li>
             Place the diced tomatoes, avocados and feta cheese along with the
@@ -75,16 +81,41 @@
           </li>
           <li>Enjoy!</li>
         </ol>
-        <div>Share</div>
+        <p>
+          If you liked this salad, you can subscribe to my newsletter to get two
+          yummy recipes like this one every week!
+        </p>
+        <div class="share-it-container">
+          <p>Did you like this article? Share it with your friends!</p>
+          <div class="social-media">
+            <img class="social-media-img" src="pictures/twitter-color.png" />
+            <img class="social-media-img" src="pictures/pinterest-color.png" />
+            <img class="social-media-img" src="pictures/facebook-color.png" />
+          </div>
+        </div>
+        <a href="index.html"
+          ><button class="btn back">Back to Homepage</button></a
+        >
       </article>
       <aside class="about-the-author">
-        <h3>About the Author</h3>
-        <div>Image</div>
-        <p>Text</p>
+        <div class="about-container">
+          <h3 class="aside-heading">About me</h3>
+          <img class="author-img" src="pictures/author.jpg" />
+          <p class="about-text">
+            Hi! My name is Veronica and I'm a Front End Developer currently
+            studying at Udacity.
+            <br />
+            Cooking is one of my two passions
+            <em>(guess the other one!)</em> and whenever I have the chance, I
+            like to cook yummy dishes that I can then share with you. <br />Feel
+            free to follow me on my social media to find out what this foodie is
+            up to!
+          </p>
+        </div>
       </aside>
       <aside class="latest-recipes">
         <div class="latest-recipes-container">
-          <h2>Latest Recipes</h2>
+          <h3 class="aside-heading">Latest Recipes</h3>
           <ul class="latest-recipes-list">
             <li>Pad Thai</li>
             <li>Mexican Corn Salad</li>

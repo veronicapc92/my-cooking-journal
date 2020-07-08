@@ -1,0 +1,52 @@
+.about-the-author {
+  margin: 50px 0 0 0;
+  grid-area: abt;
+  text-align: center;
+}
+
+.about-container {
+  margin: auto;
+  width: 90%;
+  border-radius: 30px;
+  background-color: rgba(255, 228, 225, 0.3);
+  padding: 20px 0 30px 0;
+}
+
+.author-img {
+  margin: 30px 0 20px 0;
+  width: 15vw;
+  min-width: 250px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.about-text {
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 25px;
+  padding: 0 40px;
+}
+
+br {
+  display: block;
+  content: "";
+  margin-top: 15px;
+}
+
+@media (max-width: 1270px) {
+  .about-container {
+    height: auto;
+    padding-bottom: 30px;
+    width: 100%;
+    max-width: 700px;
+    min-width: 300px;
+  }
+}
+
+@media (max-width: 500px) {
+  .about-container {
+    width: 90%;
+    max-width: 500px;
+    min-width: 300px;
+  }
+}
