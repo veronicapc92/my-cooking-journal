@@ -15,9 +15,8 @@
 }
 
 .latest-recipes-list {
-  margin-left: 60px;
+  margin: 20px 0 0 60px;
   line-height: 30px;
-  margin-top: 20px;
 }
 
 @media (max-width: 850px) {

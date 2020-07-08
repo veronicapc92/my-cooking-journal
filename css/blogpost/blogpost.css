@@ -1,4 +1,4 @@
-.blogpost-heading {
+#blogpost-heading {
   margin-top: 60px;
 }
 
@@ -8,9 +8,19 @@
   width: 55vw;
 }
 
+figure {
+  margin: auto;
+  text-align: center;
+}
+
+figcaption {
+  margin: -20px 0 50px 0;
+  padding: 0;
+  font-size: 14px;
+}
+
 .blogpost-img {
   width: 55vw;
-  height: auto;
   margin-bottom: 40px;
 }
 
@@ -28,6 +38,7 @@ blockquote {
   padding: 0.5em 10px;
   line-height: 40px;
 }
+
 blockquote:before {
   color: brown;
   content: open-quote;
@@ -37,7 +48,7 @@ blockquote:before {
   vertical-align: -0.4em;
 }
 
-blockquote p {
+.blockquote-text {
   display: inline;
 }
 
@@ -63,15 +74,12 @@ blockquote p {
 }
 
 @media (max-width: 1270px) {
-  .blogpost {
+  .blogpost,
+  .blogpost-img {
     width: 80vw;
   }
 
   blockquote {
     width: 70vw;
-  }
-
-  .blogpost-img {
-    width: 80vw;
   }
 }

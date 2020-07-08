@@ -1,12 +1,14 @@
 .main-article {
   grid-area: art;
   width: 55vw;
-  justify-self: center;
+  margin: auto;
 }
 
 .main-article-img {
   width: 55vw;
   height: auto;
+  display: block;
+  margin: auto;
 }
 
 .main-article-text {
@@ -15,6 +17,7 @@
 }
 
 @media (max-width: 1430px) {
+  .main-article,
   .main-article-img,
   .text-container {
     width: 70vw;
@@ -22,8 +25,9 @@
 }
 
 @media (max-width: 1060px) {
+  .main-article,
   .main-article-img,
   .text-container {
-    width: 80vw;
+    width: 75vw;
   }
 }

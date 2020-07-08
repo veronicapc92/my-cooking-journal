@@ -1,5 +1,7 @@
 @import "./header.css";
 @import "./footer.css";
+@import "./button.css";
+@import "./common-features.css";
 @import "./index/homepage-container.css";
 @import "./index/featured-recipes.css";
 @import "./index/main-article.css";
@@ -8,31 +10,3 @@
 @import "./blogpost/blogpost.css";
 @import "./blogpost/share-it.css";
 @import "./blogpost/about-the-author.css";
-@import "./button.css";
-
-body {
-  margin: 0;
-  cursor: default;
-  font-family: "Montserrat", sans-serif;
-  box-sizing: border-box;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-h2 {
-  margin: 0;
-  text-align: center;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-}
-
-.aside-heading {
-  text-align: center;
-}
